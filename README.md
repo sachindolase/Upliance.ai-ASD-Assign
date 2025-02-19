@@ -1,18 +1,8 @@
-# React Project Assignment
+# Upliance.ai React Assignment
 
 ## Overview
-This project is a React-based web application that includes a counter, user data form, and a rich text editor. It utilizes the following technologies:
+Build a React-based web application with a counter, user data form, and rich text editors. Utilize Material UI/ Chakra UI/ Next UI, React Spring, TS, React charts,and React Router.
 
-- **UI Library:** Material UI
-- **Animations:** React Spring
-- **State Management:** Redux Toolkit(RTK)
-- **Routing:** React Router
-- **Charts & Visualization:** Recharts
-- **Rich Text Editor:** React Quill
-- **Firebase Authentication:** Google Sign-in
-- **Package Manager:** Yarn
-
----
 ## Functional Components
 ### 1. Counter Component
 - Buttons for increment, decrement, and reset.
@@ -41,69 +31,25 @@ This project is a React-based web application that includes a counter, user data
 - Uses **Recharts** to visualize user profile trends.(Have hardcoded admin data but user data is fetched from 
 the local storage in interval of 5 sec)
 
----
-## Project Structure
-```
-📦 upliance
-├── 📂 node_modules
-├── 📂 public
-├── 📂 src
-│   ├── 📂 auth
-│   │   ├── firebase.js
-│   ├── 📂 components
-│   │   ├── Chart.js
-│   │   ├── Counter.js
-│   │   ├── Navbar.js
-│   │   ├── PrivateRoute.js
-│   │   ├── RichTextEditor.js
-│   │   ├── UserForm.js
-│   ├── 📂 pages
-│   │   ├── Home.js
-│   │   ├── Login.js
-│   │   ├── Profile.js
-│   │   ├── Signup.js
-│   ├── 📂 redux
-│   │   ├── counterSlice.js
-│   │   ├── store.js
-│   │   ├── userSlice.js
-│   ├── App.js
-│   ├── index.js
-│   ├── index.css
-│   ├── themes.js
-├── .gitignore
-├── package.json
-├── README.md
-```
----
-## Installation & Setup
-### Prerequisites
-- **Yarn** as the package manager.
 
-### Steps
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/sharky412/Upliance
-   cd upliance
-   ```
-2. Install dependencies:
-   ```sh
-   yarn install
-   ```
-3. Start the development server:
-   ```sh
-   yarn start
-   ```
-
----
 ## Tech Stack
-| Feature            | Library/Tool |
-|--------------------|-------------|
-| UI Library        | Material UI 
-| Animations        | React Spring |
-| State Management  | Redux Toolkit (RTK) |
-| Routing           | React Router |
-| Charts            | Recharts |
-| Rich Text Editor  | React Quill |
-| Authentication    | Firebase (optional) |
-| Package Manager   | Yarn |
-------------------------------------
+- React
+- Material UI 
+- React Spring 
+- Redux Toolkit (RTK) 
+- React Router 
+- Recharts 
+- React Quill 
+- Firebase (optional) 
+- npm
+
+## Screenshots :- 
+
+![outpout](https://github.com/user-attachments/assets/8f868609-6985-430e-bedb-955ef24bfb1b)
+![Screenshot (766)](https://github.com/user-attachments/assets/24e4fb8b-6be9-4010-8f63-7445a5b23045)
+![Screenshot (767)](https://github.com/user-attachments/assets/06fdab16-50f5-4f91-b94b-17dd99d437a0)
+
+
+
+
+
